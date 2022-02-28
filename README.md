@@ -181,7 +181,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 <img src="images/OTHERPLAYERS.PNG" width="800" height="300" align="middle">
 </p>
 <p align ="center">
-<img src="/images/STATS.PNG" width="1000" height="1000" align="middle">
+<img src="/images/STATS.PNG" width="1000" height="500" align="middle">
 </p>
 
 * During the 2012 season the top 5 players with most attempts were:
