@@ -165,7 +165,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 </p>
 
 * 2019 season Lebron avg 9.1 assist per game
-* doest seem to be slowing down on playmaking
+* Doesnt seem to be slowing down on playmaking
 
 ### 4. Lebrons field goal percentage each season
 <p align ="center">
