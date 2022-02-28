@@ -178,7 +178,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 
 ### 5. LeBron stats vs other players since 2013
 <p align ="center">
-<img src="images/OTHERPLAYERS.PNG" width="1000" height="400" align="middle">
+<img src="images/OTHERPLAYERS.PNG" width="1000" height="200" align="middle">
 </p>
 <p align ="center">
 <img src="images//images/STATS.PNG" width="400" height="200" align="middle">
