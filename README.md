@@ -176,11 +176,13 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 
 * Both 3 pt and 2 pt attempts increased massively from 2011 to 2012 seasons (40% and 26% respectively). That´s because the 2011 season had 300 less games due to the NBA lockout by players, since then the 3 pt attempts mantained a positive % change till the 2018 season, meanwhile the 2 pt attempts decreased each year in the same timeframe.
 
-### 5. Main drivers (PLAYERS) of 3 pointer attempts increase from 2012 season
+### 5. LeBron stats vs other players since 2013
 <p align ="center">
-<img src="images/PLAYERS_PARETO.png" width="400" height="200" align="middle">
+<img src="images/OTHERPLAYERS.png" width="1000" height="400" align="middle">
 </p>
-
+<p align ="center">
+<img src="images/STATS.png" width="400" height="200" align="middle">
+</p>
 
 * During the 2012 season the top 5 players with most attempts were:
   * Stephen Curry - GSW (716.0)
