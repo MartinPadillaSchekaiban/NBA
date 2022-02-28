@@ -149,7 +149,6 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 <img src="/images/DATA.PNG" width="923" height="179" align="middle">
 </p>
 
-* After 2012 Centers started to take more 3 pointer shots
 
 ### 2. LeBrons PPG each season
 
@@ -157,8 +156,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 <img src="/images/lebrons ppg.PNG" width="853" height="339" align="middle">
 </p>
 
-* 2019 has a positive correlation between 3pt% and final win %, the rest of the seasons show no correlation at all.
-* That means we can´t assume that if we have high 3pt% from the centers in a team will impact win% positively.
+* After 18 seasons Lebron finally appeares to be slowing down on PPG for the last 4 seasons
 
 ### 3. Lebrons Assist Per Game each season
 
@@ -166,15 +164,15 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 <img src="/images/APG.PNG" width="859" height="340" align="middle">
 </p>
 
-* 3 pointers attempted have increased almost year by year since the 2012 season (56K to 83K), meanwhile 2 pointers are decreasing slowly since then (175K to 135K). This can also be seen by the per game metrics: 3pt attempts per game (43 to 68) and 2pt attempts per game (122 to 108).
-* 2 pointer shots percentage made has increased from 2013 till 2019 (48% to 52%), meanwhile 3 pointers remain at the 36% range
+* 2019 season Lebron avg 9.1 assist per game
+* doest seem to be slowing down on playmaking
 
 ### 4. Lebrons field goal percentage each season
 <p align ="center">
 <img src="/images/FIELD%25.PNG" width="830" height="339" align="middle">
 </p>
 
-* Both 3 pt and 2 pt attempts increased massively from 2011 to 2012 seasons (40% and 26% respectively). That´s because the 2011 season had 300 less games due to the NBA lockout by players, since then the 3 pt attempts mantained a positive % change till the 2018 season, meanwhile the 2 pt attempts decreased each year in the same timeframe.
+* Pretty consistent throughout his career averaging over 45%
 
 ### 5. LeBron stats vs other players since 2013
 <p align ="center">
@@ -184,13 +182,10 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 <img src="/images/STATS.PNG" width="905" height="598" align="middle">
 </p>
 
-* During the 2012 season the top 5 players with most attempts were:
-  * Stephen Curry - GSW (716.0)
-  * Klay Thompson - GSW (622.0)
-  * Ryan Anderson - NOH (608.0)
-  * Paul George - IND (598.0)
-  * Danny Green - SAS (560.0)
-
+* Lebron marked as yellow circle, almost on top of every graph
+* More then 40,000 points made on field goals, around 10,000 more than the next guy. With alot more attemps though
+* 4th on 3 pointers made and 3th on attemps. Not what Lebron is really known for but still on top of the graphs!
+* Top on assists and steals
 
 <!-- CONTACT -->
 ## Contact
