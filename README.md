@@ -1,5 +1,13 @@
 <div id="top"></div>
 <!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
+
+
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -9,29 +17,32 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/MartinPadillaSchekaiban/NBA">
+    <img src="images/NBA_logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">NBA</h3>
-Looking at Lebron's careen on python
+<h3 align="center">NBA Analysis</h3>
+
   <p align="center">
+    This project was made using Python to analyze LeBron James impact on the NBA.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/MartinPadillaSchekaiban/NBA"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/MartinPadillaSchekaiban/NBA">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/MartinPadillaSchekaiban/NBA">Request Feature</a>
   </p>
 </div>
 
@@ -51,15 +62,15 @@ Looking at Lebron's careen on python
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#data-sources">Data Sources</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+    <!--<li><a href="#contributing">Contributing</a></li>-->
+    <!--<li><a href="#license">License</a></li>-->
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <!--<li><a href="#acknowledgments">Acknowledgments</a></li>-->
   </ol>
 </details>
 
@@ -68,9 +79,9 @@ Looking at Lebron's careen on python
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="images/3_pointer_about.png" alt="Logo" width="200" height="100">
 
-Through this project I will analyse LeBron James Career on the NBA
+Through the you will find about LeBron James performance on the NBA though 2013 season to 2020
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -78,10 +89,7 @@ Through this project I will analyse LeBron James Career on the NBA
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [python.py](https://python.org/)
-
+* [Python](https://www.python.org)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -90,47 +98,42 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* ``pip install numpy``
-* ``pip install seaborn``
-*  ``pip install matplotlib``
-*  ``pip install pandas``
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+These are the python libraries you´ll need to run the ipynb file.
+* Libraries
+  ```sh
+  pip install numpy
+  pip install seaborn 
+  pip install matplotlib
+  pip install pandas
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+### Data Sources
+
+The data source of this project where downloaded from [Kaggle](https://www.kaggle.com/nathanlauga/nba-games)
+* These are the csv files used inside the project
+
+  * **games.csv :** all games from 2004 season to last update with the date, teams and some details like number of points, etc.
+  * **games_details.csv :** details of games dataset, all statistics of players for a given game
+  * **players.csv :** players details (name)
+  * **ranking.csv :** ranking of NBA given a day (split into west and east on CONFERENCE column
+  * **teams.csv :** all teams of NBA
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+You can use this data to analyze:
+* How a player has performed through time
+* Predict a game result based on the team´s individuals
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -138,71 +141,67 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+To do ALL of the following analysis first I did the import via pd.read_csv commands and joined them as I needed to, you can check that inside the [.ipynb file](NBA_analysis.ipynb) with the step by step solution.
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+### 1. LeBrons PPG each season
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align ="center">
+<img src="images/Center_3_pt.jpg" width="400" height="198" align="middle">
+</p>
+
+* After 2012 Centers started to take more 3 pointer shots
+
+### 2. LeBrons APG each season
+
+<p align ="center">
+<img src="images/FG3M_corr.jpg" width="1400" height="200" align="middle">
+</p>
+
+* 2019 has a positive correlation between 3pt% and final win %, the rest of the seasons show no correlation at all.
+* That means we can´t assume that if we have high 3pt% from the centers in a team will impact win% positively.
+
+### 3. Lebrons field goal percentage each season
+
+<p align ="center">
+<img src="images/FG3M_SEASON.jpg" width="400" height="198" align="middle">
+</p>
+<p align ="center">
+<img src="images/FG3A_SEASON.jpg" width="400" height="198" align="middle">
+</p>
+<p align ="center">
+<img src="images/FG3_PERC_SEASON.jpg" width="400" height="198" align="middle">
+</p>
+
+* 3 pointers attempted have increased almost year by year since the 2012 season (56K to 83K), meanwhile 2 pointers are decreasing slowly since then (175K to 135K). This can also be seen by the per game metrics: 3pt attempts per game (43 to 68) and 2pt attempts per game (122 to 108).
+* 2 pointer shots percentage made has increased from 2013 till 2019 (48% to 52%), meanwhile 3 pointers remain at the 36% range
+
+### 4. Lebrons stats vs other players since 2013
+<p align ="center">
+<img src="images/FG_PERC_CHANGE_SEASON.jpg" width="400" height="200" align="middle">
+</p>
+
+* Both 3 pt and 2 pt attempts increased massively from 2011 to 2012 seasons (40% and 26% respectively). That´s because the 2011 season had 300 less games due to the NBA lockout by players, since then the 3 pt attempts mantained a positive % change till the 2018 season, meanwhile the 2 pt attempts decreased each year in the same timeframe.
+
+### 5. Main drivers (PLAYERS) of 3 pointer attempts increase from 2012 season
+<p align ="center">
+<img src="images/PLAYERS_PARETO.png" width="400" height="200" align="middle">
+</p>
 
 
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+* During the 2012 season the top 5 players with most attempts were:
+  * Stephen Curry - GSW (716.0)
+  * Klay Thompson - GSW (622.0)
+  * Ryan Anderson - NOH (608.0)
+  * Paul George - IND (598.0)
+  * Danny Green - SAS (560.0)
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Martin Padilla - [@LinkedIn](https://www.linkedin.com/in/martinschekaiban/)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+Project Link: [https://github.com/MartinPadillaSchekaiban/NBA](https://github.com/MartinPadillaSchekaiban/NBA)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -210,16 +209,14 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/camiloms10/NBA_project.svg?style=for-the-badge
+[contributors-url]: https://github.com/camiloms10/NBA_project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/camiloms10/NBA_project.svg?style=for-the-badge
+[forks-url]: https://github.com/camiloms10/NBA_project/network/members
+[stars-shield]: https://img.shields.io/github/stars/camiloms10/NBA_project.svg?style=for-the-badge
+[stars-url]: https://github.com/camiloms10/NBA_project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/camiloms10/NBA_project.svg?style=for-the-badge
+[issues-url]: https://github.com/camiloms10/NBA_project/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/camilo-manzur-4b7137a8/
 [product-screenshot]: images/screenshot.png
