@@ -151,10 +151,10 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 
 * After 2012 Centers started to take more 3 pointer shots
 
-### 2. LeBrons APG each season
+### 2. LeBrons PPG each season
 
 <p align ="center">
-<img src="images/FG3M_corr.jpg" width="1400" height="200" align="middle">
+<img src="/images/lebrons ppg.PNG" width="1400" height="200" align="middle">
 </p>
 
 * 2019 has a positive correlation between 3pt% and final win %, the rest of the seasons show no correlation at all.
