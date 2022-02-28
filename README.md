@@ -163,19 +163,13 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 ### 3. Lebrons field goal percentage each season
 
 <p align ="center">
-<img src="images/FG3M_SEASON.jpg" width="400" height="198" align="middle">
-</p>
-<p align ="center">
-<img src="images/FG3A_SEASON.jpg" width="400" height="198" align="middle">
-</p>
-<p align ="center">
-<img src="images/FG3_PERC_SEASON.jpg" width="400" height="198" align="middle">
+<img src="/images/APG.PNG" width="750" height="300" align="middle">
 </p>
 
 * 3 pointers attempted have increased almost year by year since the 2012 season (56K to 83K), meanwhile 2 pointers are decreasing slowly since then (175K to 135K). This can also be seen by the per game metrics: 3pt attempts per game (43 to 68) and 2pt attempts per game (122 to 108).
 * 2 pointer shots percentage made has increased from 2013 till 2019 (48% to 52%), meanwhile 3 pointers remain at the 36% range
 
-### 4. Lebrons stats vs other players since 2013
+### 4. Lebrons field goal percentage each season
 <p align ="center">
 <img src="images/FG_PERC_CHANGE_SEASON.jpg" width="400" height="200" align="middle">
 </p>
