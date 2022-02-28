@@ -160,7 +160,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 * 2019 has a positive correlation between 3pt% and final win %, the rest of the seasons show no correlation at all.
 * That means we can´t assume that if we have high 3pt% from the centers in a team will impact win% positively.
 
-### 3. Lebrons field goal percentage each season
+### 3. Lebrons Assist Per Game each season
 
 <p align ="center">
 <img src="/images/APG.PNG" width="750" height="300" align="middle">
@@ -171,7 +171,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 
 ### 4. Lebrons field goal percentage each season
 <p align ="center">
-<img src="images/FG_PERC_CHANGE_SEASON.jpg" width="400" height="200" align="middle">
+<img src="/images/FIELD%.PNG" width="750" height="300" align="middle">
 </p>
 
 * Both 3 pt and 2 pt attempts increased massively from 2011 to 2012 seasons (40% and 26% respectively). That´s because the 2011 season had 300 less games due to the NBA lockout by players, since then the 3 pt attempts mantained a positive % change till the 2018 season, meanwhile the 2 pt attempts decreased each year in the same timeframe.
