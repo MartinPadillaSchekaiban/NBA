@@ -71,7 +71,6 @@ Looking at Lebron's careen on python
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Through this project I will analyse LeBron James Career on the NBA
-you´ll find multiple analysis about how the NBA´s way of playing the game evolved from a 2 pointer attempting game to a longer range (3 pointer) style of play, this will be shown by correlation coefficients, line charts and pareto charts (main drivers of change).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -99,10 +98,10 @@ To get a local copy up and running follow these simple example steps.
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ``pip install numpy
-pip install seaborn 
-pip install matplotlib
-pip install pandas
-pip install sklearn 
+    pip install seaborn 
+    pip install matplotlib
+    pip install pandas
+    pip install sklearn 
   ```
 
 ### Installation
