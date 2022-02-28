@@ -146,7 +146,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 ### 1. Looking at the data
 
 <p align ="center">
-<img src="/images/DATA.PNG" width="400" height="198" align="middle">
+<img src="/images/DATA.PNG" width="1000" height="198" align="middle">
 </p>
 
 * After 2012 Centers started to take more 3 pointer shots
