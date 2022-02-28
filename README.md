@@ -154,7 +154,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 ### 2. LeBrons PPG each season
 
 <p align ="center">
-<img src="/images/lebrons ppg.PNG" width="1000" height="400" align="middle">
+<img src="/images/lebrons ppg.PNG" width="800" height="300" align="middle">
 </p>
 
 * 2019 has a positive correlation between 3pt% and final win %, the rest of the seasons show no correlation at all.
