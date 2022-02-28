@@ -200,14 +200,14 @@ Project Link: [https://github.com/MartinPadillaSchekaiban/NBA](https://github.co
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/camiloms10/NBA_project.svg?style=for-the-badge
-[contributors-url]: https://github.com/camiloms10/NBA_project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/camiloms10/NBA_project.svg?style=for-the-badge
-[forks-url]: https://github.com/camiloms10/NBA_project/network/members
-[stars-shield]: https://img.shields.io/github/stars/camiloms10/NBA_project.svg?style=for-the-badge
-[stars-url]: https://github.com/camiloms10/NBA_project/stargazers
-[issues-shield]: https://img.shields.io/github/issues/camiloms10/NBA_project.svg?style=for-the-badge
-[issues-url]: https://github.com/camiloms10/NBA_project/issues
+[contributors-shield]: 
+[contributors-url]: https://github.com/MartinPadillaSchekaiban/NBA
+[forks-shield]: https://github.com/MartinPadillaSchekaiban/NBA
+[forks-url]: https://github.com/MartinPadillaSchekaiban/NBA
+[stars-shield]: https://github.com/MartinPadillaSchekaiban/NBA
+[stars-url]: https://github.com/MartinPadillaSchekaiban/NBA
+[issues-shield]: https://github.com/MartinPadillaSchekaiban/NBA
+[issues-url]: https://github.com/MartinPadillaSchekaiban/NBA
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/camilo-manzur-4b7137a8/
+[linkedin-url]: https://www.linkedin.com/in/martinschekaiban/
 [product-screenshot]: images/screenshot.png
