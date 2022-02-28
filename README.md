@@ -200,14 +200,14 @@ Project Link: [https://github.com/MartinPadillaSchekaiban/NBA](https://github.co
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: 
-[contributors-url]: https://github.com/MartinPadillaSchekaiban/NBA
-[forks-shield]: https://github.com/MartinPadillaSchekaiban/NBA
-[forks-url]: https://github.com/MartinPadillaSchekaiban/NBA
-[stars-shield]: https://github.com/MartinPadillaSchekaiban/NBA
-[stars-url]: https://github.com/MartinPadillaSchekaiban/NBA
-[issues-shield]: https://github.com/MartinPadillaSchekaiban/NBA
-[issues-url]: https://github.com/MartinPadillaSchekaiban/NBA
+[contributors-shield]: https://img.shields.io/github/contributors/MartinPadillaScheiban/NBA.svg?style=for-the-badge
+[contributors-url]: https://github.com/MartinPadillaScheiban/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/MartinPadillaScheiban/NBA.svg?style=for-the-badge
+[forks-url]: https://github.com/MartinPadillaScheiban/NBA/network/members
+[stars-shield]: https://img.shields.io/github/stars/MartinPadillaScheiban/NBA.svg?style=for-the-badge
+[stars-url]: https://github.com/MartinPadillaScheiban/NBA/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MartinPadillaScheiban/NBA.svg?style=for-the-badge
+[issues-url]: https://github.com/MartinPadillaScheiban/NBA/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/martinschekaiban/
 [product-screenshot]: images/screenshot.png
