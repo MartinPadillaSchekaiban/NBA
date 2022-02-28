@@ -143,10 +143,10 @@ You can use this data to analyze:
 
 To do ALL of the following analysis first I did the import via pd.read_csv commands and joined them as I needed to, you can check that inside the [.ipynb file](NBA_analysis.ipynb) with the step by step solution.
 
-### 1. LeBrons PPG each season
+### 1. Looking at the data
 
 <p align ="center">
-<img src="images/Center_3_pt.jpg" width="400" height="198" align="middle">
+<img src="/images/DATA.PNG" width="400" height="198" align="middle">
 </p>
 
 * After 2012 Centers started to take more 3 pointer shots
