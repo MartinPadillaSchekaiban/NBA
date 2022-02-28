@@ -146,7 +146,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 ### 1. Looking at the data
 
 <p align ="center">
-<img src="/images/DATA.PNG" width="1400" height="198" align="middle">
+<img src="/images/DATA.PNG" width="923" height="179" align="middle">
 </p>
 
 * After 2012 Centers started to take more 3 pointer shots
@@ -154,7 +154,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 ### 2. LeBrons PPG each season
 
 <p align ="center">
-<img src="/images/lebrons ppg.PNG" width="750" height="300" align="middle">
+<img src="/images/lebrons ppg.PNG" width="853" height="339" align="middle">
 </p>
 
 * 2019 has a positive correlation between 3pt% and final win %, the rest of the seasons show no correlation at all.
@@ -163,7 +163,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 ### 3. Lebrons Assist Per Game each season
 
 <p align ="center">
-<img src="/images/APG.PNG" width="750" height="300" align="middle">
+<img src="/images/APG.PNG" width="859" height="340" align="middle">
 </p>
 
 * 3 pointers attempted have increased almost year by year since the 2012 season (56K to 83K), meanwhile 2 pointers are decreasing slowly since then (175K to 135K). This can also be seen by the per game metrics: 3pt attempts per game (43 to 68) and 2pt attempts per game (122 to 108).
@@ -171,7 +171,7 @@ To do ALL of the following analysis first I did the import via pd.read_csv comma
 
 ### 4. Lebrons field goal percentage each season
 <p align ="center">
-<img src="/images/FIELD%25.PNG" width="750" height="300" align="middle">
+<img src="/images/FIELD%25.PNG" width="830" height="339" align="middle">
 </p>
 
 * Both 3 pt and 2 pt attempts increased massively from 2011 to 2012 seasons (40% and 26% respectively). That´s because the 2011 season had 300 less games due to the NBA lockout by players, since then the 3 pt attempts mantained a positive % change till the 2018 season, meanwhile the 2 pt attempts decreased each year in the same timeframe.
