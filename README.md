@@ -97,11 +97,11 @@ To get a local copy up and running follow these simple example steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
-  ``pip install numpy,
-    pip install seaborn, 
-    pip install matplotlib,
-    pip install pandas,
-    pip install sklearn ,
+  ``pip install numpy``
+    pip install seaborn`` 
+    pip install matplotlib``
+    pip install pandas``
+    pip install sklearn ``
   ```
 
 ### Installation
